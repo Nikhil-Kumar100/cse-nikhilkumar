@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" id="container1">
+        <div class="item" draggable="true">Web</div>
+        <div class="item" draggable="true">developer</div>
+        <div class="item" draggable="true">Nikhil</div>
+        <div class="item" draggable="true">Kumar</div>
+        <div class="item" draggable="true">110067</div>
+    </div>
+    <div class="container" id="container2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+    <p id="successMessage" class="success-message"></p>
+    <button onclick="reset()">Reset</button>
+    <script src="index.js"></script>
+</body>
+</html>
